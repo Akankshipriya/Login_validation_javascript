@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <h1>REGISTRATION FORM</h1>
+    </div>
+    <form class="form" id="form" action="practice.html" onsubmit="return myfun()">
+        <div class="form-control">
+            <labe>Username</labe>
+            <input type="text" id="username" placeholder="Enter your full name">
+            <small>Error Msg</small>
+        </div>
+        <div class="form-control">
+            <labe>Email</labe>
+            <input type="email" id="Email" placeholder="Enter your Email">
+            <small>Error Msg</small>
+        </div>
+        <div class="form-control">
+            <labe>Phone Number</labe>
+            <input type="number" id="phone" placeholder="Enter your Phone Number">
+            <small>Error Msg</small>
+        </div>
+        <div class="form-control">
+            <labe>Password</labe>
+            <input type="password" id="password" placeholder="Enter your Password">
+            <small>Error Msg</small>
+        </div>
+        <div class="form-control">
+            <labe>Confirm Password</labe>
+            <input type="password" id="confirmpassword" placeholder="Enter your confirmpassword">
+            <small>Error Msg</small>
+        </div >
+        <div class="btn" disabled='!form'>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+</div>
+
+<script src="myscript.js"></script>    
+</body>
+</html>
